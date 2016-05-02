@@ -12,4 +12,4 @@ require 'csv'
 page = HTTParty.get('https://newyork.craigslist.org/search/pet?s=0')
 
 #Use Pry for debugging
-Pry.start(binding)
+Pry.start(binding) 
