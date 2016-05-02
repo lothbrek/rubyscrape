@@ -1,2 +1,6 @@
 # rubyscrape
-General Scraper written in Ruby for public use
+General Web Scraper written in Ruby for public use
+
+Please e-mail me at mattaym@gmail.com or comment for any questions or concerns. 
+
+Enjoy!
