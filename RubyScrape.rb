@@ -2,11 +2,14 @@
 #Please e-mail me or comment if anything is out of date or
 #Does not work, with the error message you are getting.
 
+require 'rubygems'
 require 'HTTParty'
 require 'Nokogiri'
 require 'JSON'
 require 'Pry'
+require 'pry-byebug'
 require 'csv'
+require 'mechanize'
 
 #send request to scrape page
 #I am using a pets listing on craigslist for testing purposes
@@ -19,7 +22,7 @@ parse_page = Nokogiri::HTML(page)
 scrape_array = []
 
 #this is where we parse the data
-#adjust the parse command to your own needs
+#adjust the parse command to your own needs. I am parsing for .content, .row, and .hdrlnk tags
 
 #type in your array to hold the content when Pry begins 
 #currently this is scrape_array
@@ -39,3 +42,5 @@ end
 #Type 'exit' when you want to quit the pry debugging session
 #uncomment for testing/debugging purposes!
 #Pry.start(binding) 
+
+#typing scrape_array into the pry debugger will show you your output bit by bit
