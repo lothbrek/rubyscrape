@@ -7,9 +7,14 @@ Please e-mail me at mattaym@gmail.com or comment for any questions or concerns.
 
 Enjoy!
 
+<h1>Windows Users HTTParty notes</h1>
+If users would like to use HTTParty to interact with urls easily with their scraping, make sure to change http.verify mode to the following:
 
+http.verify_mode = OpenSSL::SSL::VERIFY_NONE
 
-TODO
+This should be done in httparty/conection_adapter.rb
+
+<h1>TODO</h1>
 
 
 Create Tutorial/Example for rubyscrape
