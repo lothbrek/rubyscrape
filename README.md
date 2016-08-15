@@ -16,13 +16,20 @@ This should be done in httparty/conection_adapter.rb
 
 <h1>TODO</h1>
 
+<ul>
+<li>Create Tutorial/Example for rubyscrape (Currently, the code itself is a good example with several comments)</li>
 
-Create Tutorial/Example for rubyscrape
+<li>Add support for mechanize (implemented but needs further improving for public)</li>
 
-Add support for mechanize
+<li>Add support for logging in to websites using textforms</li>
 
-Add support for logging in to websites using textforms
+<li>Add support for captchas and buttons</li>
 
-Add support for captchas and buttons
+<li>Create scraping options for more specialized and less generalized terms.</li>
 
-Create scraping options for more specialized and less generalized terms.
+<li>Create crawler/spider for storing information</li>
+
+<li>Compare speed against python's Scrapy</li>
+<li>Create Gem for RubyScrape to make it even easier to use.</li>
+
+</ul>
